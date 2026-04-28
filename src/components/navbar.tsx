@@ -30,23 +30,20 @@ export default function Navbar() {
           </Link>
         </div>
         <nav className="hidden sm:flex items-center space-x-6 text-base font-medium">
-          <a href="#social-proof" className="nav-link-polish">
-            Studyodan Kareler
-          </a>
           <a href="#portfolio" className="nav-link-polish">
-            Portfolyo
+            Çalışmalarımız
           </a>
-          <Link href="/fiyatlar" className="nav-link-polish">
-            Fiyat
-          </Link>
-          <Link href="/sss" className="nav-link-polish">
-            SSS
-          </Link>
+          <a href="#social-proof" className="nav-link-polish">
+            Stüdyodan Kareler
+          </a>
           <a href="#brands" className="nav-link-polish">
             Referanslar
           </a>
           <Link href="/iletisim" className="nav-link-polish">
             İletişim
+          </Link>
+          <Link href="/sss" className="nav-link-polish">
+            SSS
           </Link>
         </nav>
       </div>

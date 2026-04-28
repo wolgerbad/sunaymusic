@@ -1,16 +1,11 @@
 import SeoLandingPage from '@/components/seo-landing-page';
 
-export const metadata = {
-  title: 'Kadikoy Studyo - Sunay Music Stüdyo',
-  description: 'Kadikoy Studyo sayfası hakkında bilgi. Sunay Music Stüdyo hizmetlerimizi keşfedin.',
-};
-
 export default function Page() {
   return (
     <SeoLandingPage
       title="Kadikoy Studyo"
-      intro="Kadikoy Studyo hizmetimiz hakkında hızlı ve etkili bir tanıtım."
-      detail="Bu sayfa, Kadikoy Studyo ile ilgili temel bilgileri, süreci ve avantajları özetler."
+      intro="Kadikoy studyo aramalarinda kayit, mixing ve mastering icin butunlesik cozumler."
+      detail="Sanatsal vizyonunuza uygun bir calisma akisi kurup teknik kaliteyi ve yaratici sureci ayni cizgide bulusturuyoruz."
     />
   );
 }

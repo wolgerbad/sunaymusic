@@ -1,11 +1,4 @@
 import Image from 'next/image';
-import Breadcrumb from '@/components/breadcrumb';
-
-export const metadata = {
-  title: 'Fiyatlar - Sunay Music Stüdyo',
-  description:
-    'Sunay Music Stüdyo fiyatlar sayfası. Proje bazlı ücretlendirmemiz hakkında bilgi alın.',
-};
 
 const services = [
   {
@@ -27,7 +20,7 @@ const services = [
   {
     name: 'Mastering',
     description:
-      'Birinci sınıf teknik ekipmanımız ve tecrübemizle, mixlerinizin kalitesi bozulmadan yayına hazırlanması için özenle çalışıyoruz.',
+      'Birinci sınıf teknik ekipmanımız ve tecrübemizle, mixlerinizin kalitesi bozulmadan yayıma hazırlanması için özenle çalışıyoruz.',
     image:
       'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunay-mastering.jpg',
     price: '5000 TL / eser',
@@ -66,7 +59,6 @@ export default function Page() {
 
       <section className="py-20 border-t border-white/10 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6">
-          <Breadcrumb />
           <div className="rounded-2xl border border-white/10 bg-white/4 p-6 md:p-8 text-white/80 leading-relaxed">
             <h2 className="text-base md:text-lg font-medium text-white">
               Uzun süreli rezervasyonlarınız için fiyatlarımızda daha esnek
@@ -74,7 +66,7 @@ export default function Page() {
               müzisyenlerin özgün ve etkileyici ses kayıtları yapmasına destek
               olmaktır. Projelerinizin kaliteden ödün vermeden olabildiğince
               ekonomik sonlandırılabilmesi için mutlaka bizi ziyaret edin.
-              Şartlarınızı ve hayallerinizi bizimle paylaşırsanız, tecrübemiz ve
+              Şartlarınız ve hayallerinizi bizimle paylaşırsanız, tecrübemiz ve
               yönlendirmelerimizle çok daha avantajlı sonuçlar elde
               edebileceğinizi unutmayın. Aşağıdaki listede fiyatlarımız KDV
               hariç olarak düzenlenmiştir.

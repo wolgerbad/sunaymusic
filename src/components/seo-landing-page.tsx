@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Breadcrumb from './breadcrumb';
 
 type SeoLandingPageProps = {
   title: string;
@@ -42,10 +41,9 @@ export default function SeoLandingPage({
 
       <section className="bg-zinc-950 py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-6">
-          <Breadcrumb />
           <div className="rounded-2xl border border-white/10 bg-white/4 p-6 md:p-8 backdrop-blur-sm">
             <h2 className="text-2xl md:text-3xl font-semibold">
-              Profesyonel Süreç
+              Profesyonel Surec
             </h2>
             <p className="mt-4 text-white/75 leading-relaxed max-w-5xl">
               {detail}

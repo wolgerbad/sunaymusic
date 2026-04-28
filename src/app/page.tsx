@@ -1,15 +1,14 @@
+'use client';
+
+import ContactForm from '@/components/contact-form';
 import HomepageClient from '@/components/homepage-client';
-import { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'İstanbul Ses Kayıt Stüdyosu - Sunay Music Stüdyo',
-  description:
-    "İstanbul'da profesyonel ses kaydı ve mixing hizmetleri sunuyoruz. Şişli, Kadıköy ve Bayrampaşa'daki stüdyolarımızda kaliteli kayıt deneyimi yaşayın.",
-};
-
-
+import Services from '@/components/services';
+import Image from 'next/image';
 
 export default function Home() {
-
-  return <HomepageClient />;
+  return (
+    <div>
+      <HomepageClient />
+    </div>
+  );
 }
