@@ -2,7 +2,8 @@ import SeoLandingPage from '@/components/seo-landing-page';
 
 export const metadata = {
   title: 'Band Prova Kayit - Sunay Music Stüdyo',
-  description: 'Band Prova Kayit sayfası hakkında bilgi. Sunay Music Stüdyo hizmetlerimizi keşfedin.',
+  description:
+    'Band Prova Kayit sayfası hakkında bilgi. Sunay Music Stüdyo hizmetlerimizi keşfedin.',
 };
 
 export default function Page() {

@@ -16,10 +16,17 @@ export default function Services() {
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {[
             {
-              title: 'Recording',
+              title: 'Aranje',
+              image:
+                'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/production-support.jpg',
+              desc: 'Düzenleme, aranje ve yaratıcı yönlendirme desteği.',
+              url: '/production-support',
+            },
+            {
+              title: 'Ses Kayıt ',
               image:
                 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunay-ses-kayit.jpg',
-              desc: 'Akustik olarak optimize odalarda profesyonel kayit.',
+              desc: 'Albüm, demo, kendi enstrümanınız ile kayıt hizmetlerimiz vardır. ',
               url: '/ses-kayit',
             },
             {
@@ -35,13 +42,6 @@ export default function Services() {
                 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunay-mastering.jpg',
               desc: 'Tum platformlarda guclu ve tutarli son cikis.',
               url: '/mastering',
-            },
-            {
-              title: 'Production Support',
-              image:
-                'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/production-support.jpg',
-              desc: 'Duzenleme, arrangement ve yaratici yonlendirme destegi.',
-              url: '/production-support',
             },
           ].map((service) => (
             <Link

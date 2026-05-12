@@ -1,14 +1,10 @@
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-zinc-950 text-white">
-      <div className="max-w-7xl mx-auto px-6 py-14">
+      <div className="max-w-7xl mx-auto px-6 pt-14 pb-7">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="text-xl font-semibold">Sunay Music Studio</h3>
-            <p className="mt-3 text-sm leading-relaxed text-white/65">
-              Istanbul merkezli recording, mixing ve mastering studyo
-              hizmetleri.
-            </p>
+            <h3 className="text-xl font-semibold">Sunay Müzik Studyo</h3>
           </div>
 
           <div>
@@ -17,19 +13,21 @@ export default function Footer() {
             </p>
             <ul className="mt-3 space-y-2 text-sm text-white/80">
               <li>
-                <a href="tel:+905551112233" className="hover:text-white">
-                  +90 555 111 22 33
+                <a href="tel:+905456754787" className="hover:text-white">
+                  +90 545 675 47 87
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:hello@sunaymusicstudio.com"
+                  href="mailto:sunaymuzikk@gmail.com"
                   className="hover:text-white"
                 >
-                  hello@sunaymusicstudio.com
+                  sunaymuzikk@gmail.com
                 </a>
               </li>
-              <li className="text-white/65">Kadikoy / Istanbul</li>
+              <li className="text-white/65">
+                Dostlar İş Merkezi, Kartaltepe, Gülseren Sk. Bayrampaşa/İstanbul
+              </li>
             </ul>
           </div>
 
@@ -41,12 +39,9 @@ export default function Footer() {
               {[
                 {
                   name: 'Instagram',
-                  href: 'https://instagram.com',
+                  href: 'https://www.instagram.com/sunaymusicproduction/',
                   icon: '◎',
                 },
-                { name: 'YouTube', href: 'https://youtube.com', icon: '▶' },
-                { name: 'Spotify', href: 'https://spotify.com', icon: '♫' },
-                { name: 'TikTok', href: 'https://tiktok.com', icon: '♪' },
               ].map((social) => (
                 <a
                   key={social.name}
@@ -80,11 +75,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#pricing" className="hover:text-white">
-                  Fiyatlandirma
-                </a>
-              </li>
-              <li>
                 <a href="#contact" className="hover:text-white">
                   Iletisim Formu
                 </a>
@@ -95,7 +85,12 @@ export default function Footer() {
 
         <div className="mt-10 flex flex-col gap-2 border-t border-white/10 pt-5 text-xs text-white/55 md:flex-row md:items-center md:justify-between">
           <span>© {new Date().getFullYear()} Sunay Music Studio</span>
-          <span>Music vibes. All rights reserved.</span>
+          <span>
+            created by{' '}
+            <a href="https://v2emirisk.vercel.app/" target="_blank">
+              emirdev
+            </a>
+          </span>
         </div>
       </div>
     </footer>

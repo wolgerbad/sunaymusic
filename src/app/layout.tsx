@@ -27,7 +27,26 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'İstanbul Ses Kayıt Stüdyosu - Sunay Music Stüdyo',
   description:
-    "İstanbul'da profesyonel ses kaydı ve mixing hizmetleri sunuyoruz. Şişli, Kadıköy ve Bayrampaşa'daki stüdyolarımızda kaliteli kayıt deneyimi yaşayın.",
+    "İstanbul'da profesyonel ses kaydı ve mixing hizmetleri sunuyoruz. Şişli, Kadıköy ve Bayrampşa'daki stüdyolarımızda kaliteli kayıt deneyimi yaşayın.",
+  openGraph: {
+    type: 'website',
+    locale: 'tr_TR',
+    siteName: 'Sunay Music Stüdyo',
+    images: [
+      {
+        url: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunaymuic_logo.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Sunay Music Stüdyo',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [
+      'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunaymuic_logo.jpg',
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -37,7 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="tr"
       className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">

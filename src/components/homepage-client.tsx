@@ -21,63 +21,261 @@ export default function HomepageClient() {
   const portfolioTracks: PortfolioTrack[] = [
     {
       no: '01',
-      title: 'Midnight Echoes',
-      artist: 'Vocal Session - Aylin K.',
-      src: '/audio/aud-1.mp3',
+      title: 'ŞARKI',
+      artist: 'Sunay Akça',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/alper%20abi%20gidiyorum%20master.mp3',
       type: 'Pop / Vocal Mix',
       duration: '05:14',
       status: 'Ready',
     },
     {
       no: '02',
-      title: 'Asphalt Dreams',
+      title: 'ŞARKI',
       artist: 'Rap Session - Kobra 34',
-      src: '/audio/aud-2.mp3',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/ard%201.mp3',
       type: 'Trap / Master',
       duration: '03:39',
       status: 'Ready',
     },
     {
       no: '03',
-      title: 'Analog Heart',
+      title: 'ŞARKI',
       artist: 'Band Session - Nova Kids',
-      src: '/audio/aud-8.mp3',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/asik%20olamiyorum.mp3',
       type: 'Indie / Full Prod',
       duration: '02:08',
       status: 'Preview',
     },
     {
       no: '04',
-      title: 'Blue Room Take',
+      title: 'ŞARKI',
       artist: 'Live Room - Eren D.',
-      src: '/audio/aud-4.mp3',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cartel%201.mp3',
       type: 'Karaoke',
       duration: '05:26',
       status: 'Preview',
     },
     {
       no: '05',
-      title: 'Blue Room Take',
+      title: 'ŞARKI',
       artist: 'Live Room - Eren D.',
-      src: '/audio/aud-5.mp3',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cartel%202.mp3',
       type: 'Acoustic / Mix',
       duration: '04:46',
       status: 'Preview',
     },
     {
       no: '06',
-      title: 'Blue Room Take',
+      title: 'ŞARKI',
       artist: 'Live Room - Eren D.',
-      src: '/audio/aud-6.mp3',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cartel%203.mp3',
       type: 'Rap',
       duration: '03:48',
       status: 'Preview',
     },
     {
       no: '07',
-      title: 'Blue Room Take',
+      title: 'ŞARKI',
       artist: 'Live Room - Eren D.',
-      src: '/audio/aud-7.mp3',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cekirge.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '08',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cityok.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '09',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/domingo%20son.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '10',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/eski%20yar%20senelgan.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '11',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/ey%20guzel.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '12',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/faruk%20son%20master.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '13',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/gift%20of%20time%2024.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '14',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/haddimizi%20bileleim.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '15',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/hayrola%20master.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '16',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/icer%20aglarim.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '17',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/Kebo%20-%20KAFKAS.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '18',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/kebo%20isyan.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '19',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/koptum%20bu%20gece.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '20',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/kurtce%20emre.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '21',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/osmaniye%20son%20son.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '22',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/senel-delimisin.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '23',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/senel-yazgan-ingilizce.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '24',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/serap-demo.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '25',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/sonses.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '26',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tamirci-ciragi.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '27',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tuncay-didismeyelim.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '28',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tuncay-oz-mutlu-olacaksam.mp3',
+      type: 'Acoustic / Mix',
+      duration: '03:41',
+      status: 'Preview',
+    },
+    {
+      no: '29',
+      title: 'ŞARKI',
+      artist: 'Live Room - Eren D.',
+      src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tuncay-teksen-kemanli.mp3',
       type: 'Acoustic / Mix',
       duration: '03:41',
       status: 'Preview',
@@ -90,6 +288,8 @@ export default function HomepageClient() {
   const [elapsed, setElapsed] = useState(0);
   const [total, setTotal] = useState(0);
   const [hideDockedPlayer, setHideDockedPlayer] = useState(false);
+  const [volume, setVolume] = useState(1);
+  const [showAllTracks, setShowAllTracks] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const formatTime = (seconds: number) => {
@@ -118,6 +318,10 @@ export default function HomepageClient() {
       window.removeEventListener('resize', checkBottom);
     };
   }, []);
+
+  useEffect(() => {
+    if (audioRef.current) audioRef.current.volume = volume;
+  }, [volume]);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -189,9 +393,9 @@ export default function HomepageClient() {
 
   return (
     <div>
-      <main className="min-h-screen relative">
+      <main className="pb-8 min-h-screen md:min-h-[calc(100vh-70px)] relative">
         <Image
-          src="https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunay-1.jpg"
+          src="https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/social-4.jpg"
           className="absolute inset-0 -z-20 object-cover object-center"
           fill
           priority
@@ -200,14 +404,14 @@ export default function HomepageClient() {
         <div className="absolute inset-0 -z-10 bg-linear-to-r from-black/80 via-black/60 to-black/75" />
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.25),transparent_38%)]" />
         <div className="max-w-7xl mx-auto px-6 pt-24 md:pt-28 text-white">
-          <div className="max-w-3xl flex flex-col gap-8">
-            <h1 className="hero-reveal text-5xl md:text-7xl font-semibold leading-[0.95] [animation-delay:80ms]">
-              Sunay Müzik Kayıt ve Prova Stüdyosu
+          <div className="max-w-4xl flex flex-col gap-8">
+            <h1 className="text-start hero-reveal text-5xl md:text-7xl font-semibold leading-[0.95] [animation-delay:80ms]">
+              Sunay Müzik Ses Kayıt Albüm Demo
             </h1>
             <p className="hero-reveal text-lg md:text-xl text-white/90 max-w-2xl [animation-delay:180ms]">
-              Sunay Music Studyo, kaydinizin enerjisini koruyarak modern, net ve
-              guclu bir sound sunar. Tekli, EP ve album projeleri icin hizli
-              teslimat ve acik iletisim.
+              Sunay Müzik Production, kaydınızın enerjisini koruyarak modern,
+              net ve güçlü bir sound sunar. Tekli, EP ve albüm projeleri için
+              hızlı teslimat ve açık iletişim.
             </p>
             <div className="hero-reveal flex flex-wrap items-center gap-4 [animation-delay:280ms]">
               <a
@@ -225,26 +429,26 @@ export default function HomepageClient() {
               </a>
             </div>
           </div>
-          <ul className="hero-reveal mt-20 grid w-full max-w-3xl grid-cols-1 gap-3 text-white/95 list-none sm:grid-cols-3 [animation-delay:380ms]">
-            <li className="rounded-xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-md">
-              <p className="text-xs uppercase tracking-[0.12em] text-white/70">
-                Mutlu Musteri
-              </p>
-              <p className="mt-1 text-2xl font-semibold text-white">100+</p>
+          {/* <ul className="hero-reveal text-lg mt-20 flex flex-wrap gap-x-8 gap-y-2 text-white/90 list-none [animation-delay:380ms]">
+            <li className="flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400" />
+              <span>
+                <strong className="text-white">100+</strong> Mutlu Musteri
+              </span>
             </li>
-            <li className="rounded-xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-md">
-              <p className="text-xs uppercase tracking-[0.12em] text-white/70">
-                Degerlendirme
-              </p>
-              <p className="mt-1 text-2xl font-semibold text-white">4.5 / 5</p>
+            <li className="flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400" />
+              <span>
+                <strong className="text-white">4.5 / 5</strong> Degerlendirme
+              </span>
             </li>
-            <li className="rounded-xl border border-white/20 bg-white/10 px-4 py-3 backdrop-blur-md">
-              <p className="text-xs uppercase tracking-[0.12em] text-white/70">
-                Teslim Sureci
-              </p>
-              <p className="mt-1 text-2xl font-semibold text-white">Hizli</p>
+            <li className="flex items-center gap-2">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400" />
+              <span>
+                <strong className="text-white">Hizli</strong> Teslim Sureci
+              </span>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </main>
 
@@ -271,12 +475,15 @@ export default function HomepageClient() {
             </div>
 
             <div className="space-y-2">
-              {portfolioTracks.map((track) => (
+              {(showAllTracks
+                ? portfolioTracks
+                : portfolioTracks.slice(0, 10)
+              ).map((track) => (
                 <article
                   key={track.no}
                   className="group grid grid-cols-1 gap-3 rounded-xl border border-white/8 bg-black/30 px-4 py-4 transition-colors hover:bg-white/8 md:grid-cols-[minmax(0,1fr)_88px_88px] md:items-center"
                 >
-                  <div className="flex items-start gap-3">
+                  <div className="flex items-center gap-3">
                     <button
                       type="button"
                       onClick={() => playTrack(track)}
@@ -290,16 +497,11 @@ export default function HomepageClient() {
                         <FaPlay />
                       )}
                     </button>
-                    <div>
+                    <div className="flex h-full items-center">
                       <h3 className="font-medium text-white">
                         {track.no}. {track.title}
                       </h3>
-                      <p className="mt-0.5 text-sm text-white/60">
-                        {track.artist}
-                      </p>
-                      <div className="mt-2 inline-flex rounded-md border border-white/15 bg-white/8 px-2 py-1 text-xs text-white/70">
-                        {track.type}
-                      </div>
+
                       {!track.src ? (
                         <p className="mt-3 text-xs uppercase tracking-[0.12em] text-white/45">
                           Audio yakinda eklenecek
@@ -315,6 +517,17 @@ export default function HomepageClient() {
                 </article>
               ))}
             </div>
+            {portfolioTracks.length > 10 && (
+              <button
+                type="button"
+                onClick={() => setShowAllTracks(!showAllTracks)}
+                className="mt-4 w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-sm font-medium text-white/70 transition-colors hover:bg-white/10 hover:text-white"
+              >
+                {showAllTracks
+                  ? 'Daha Az Göster'
+                  : `Tümünü Göster (${portfolioTracks.length} parça)`}
+              </button>
+            )}
           </div>
         </div>
       </section>
@@ -375,35 +588,35 @@ export default function HomepageClient() {
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.14em] text-white/55">
-                Studio Ekipmanlari
+                Stüdyo Ekipmanlari
               </p>
               <h2 className="text-3xl md:text-4xl font-semibold">
-                Gear & Setup Placeholder
+                Stüdyoda Kullanılan Ekipmanlar
               </h2>
             </div>
-            <p className="max-w-xl text-white/70">
-              Burayi daha sonra kullandigin ekipmanlarla doldurabilirsin.
-              Simdilik kategori bazli modern bir placeholder duzeni hazir.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
             {[
               {
-                title: 'Microphones',
-                items: ['Neumann U87', 'Shure SM7B', 'Rode NT1-A'],
+                title: 'Mikrofonlar',
+                items: ['Rode NT2000', 'Icon O2', 'Beta 57'],
               },
               {
-                title: 'Monitoring',
-                items: ['Yamaha HS8', 'KRK Sub', 'Sonarworks Ref'],
+                title: 'Monitörler',
+                items: ['JBL LSR308', 'Yamaha HS80'],
               },
               {
-                title: 'Outboard & Interface',
-                items: ['Apollo Twin', 'Warm Audio EQP', 'DBX 160A'],
+                title: 'Ses Kartı & Arayüz',
+                items: [
+                  'Motu Traveler MK3',
+                  'SM TB 202 TubePreamp',
+                  'Mackie Big Knob',
+                ],
               },
               {
-                title: 'Instruments & Extras',
-                items: ['Nord Stage', 'Fender Jazz Bass', 'Gibson SG'],
+                title: 'Enstrümanlar & Extra',
+                items: ['Komplete Midi Klavye', 'Icon 6G2 Midi Klavye'],
               },
             ].map((group) => (
               <article
@@ -467,6 +680,22 @@ export default function HomepageClient() {
                 <span>{formatTime(elapsed)}</span>
                 <span>{formatTime(total || 0)}</span>
               </div>
+            </div>
+
+            <div className="flex h-full self-start gap-2 shrink-0">
+              <span className="text-xs text-white/55">
+                {volume === 0 ? '🔇' : volume < 0.5 ? '🔉' : '🔊'}
+              </span>
+              <input
+                type="range"
+                min={0}
+                max={1}
+                step={0.01}
+                value={volume}
+                onChange={(e) => setVolume(Number(e.target.value))}
+                className="w-20 accent-teal-300 cursor-pointer"
+                aria-label="Ses seviyesi"
+              />
             </div>
           </div>
         </div>
