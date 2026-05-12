@@ -1,4 +1,4 @@
-import Image from 'next/image';
+﻿import Image from 'next/image';
 
 const services = [
   {
@@ -89,9 +89,6 @@ export default function Page() {
                 </div>
                 <div className="mt-4 flex items-center justify-between gap-4">
                   <h3 className="text-xl font-semibold">{service.name}</h3>
-                  <span className="rounded-full border border-teal-300/30 bg-teal-300/10 px-3 py-1 text-xs font-semibold text-teal-200">
-                    {service.price}
-                  </span>
                 </div>
                 <p className="mt-3 text-sm leading-relaxed text-white/70">
                   {service.description}
