@@ -76,8 +76,8 @@ export default function Gallery() {
 
   return (
     <section id="social-proof" className="bg-zinc-950 text-white">
-      <div className="max-w-7xl mx-auto px-6 py-20">
-        <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+      <div className="max-w-7xl mx-auto px-6 pt-10 md:pt-20">
+        <div className="mb-4 md:mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold">
               Stüdyodan Kareler

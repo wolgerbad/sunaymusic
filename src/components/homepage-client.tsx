@@ -25,7 +25,7 @@ export default function HomepageClient() {
       artist: 'Sunay Akça',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/alper%20abi%20gidiyorum%20master.mp3',
       type: 'Pop / Vocal Mix',
-      duration: '05:14',
+      duration: '05:09',
       status: 'Ready',
     },
     {
@@ -34,7 +34,7 @@ export default function HomepageClient() {
       artist: 'Rap Session - Kobra 34',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/ard%201.mp3',
       type: 'Trap / Master',
-      duration: '03:39',
+      duration: '03:34',
       status: 'Ready',
     },
     {
@@ -43,7 +43,7 @@ export default function HomepageClient() {
       artist: 'Band Session - Nova Kids',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/asik%20olamiyorum.mp3',
       type: 'Indie / Full Prod',
-      duration: '02:08',
+      duration: '04:07',
       status: 'Preview',
     },
     {
@@ -52,7 +52,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cartel%201.mp3',
       type: 'Karaoke',
-      duration: '05:26',
+      duration: '0:22',
       status: 'Preview',
     },
     {
@@ -61,7 +61,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cartel%202.mp3',
       type: 'Acoustic / Mix',
-      duration: '04:46',
+      duration: '0:13',
       status: 'Preview',
     },
     {
@@ -70,7 +70,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cartel%203.mp3',
       type: 'Rap',
-      duration: '03:48',
+      duration: '0:13',
       status: 'Preview',
     },
     {
@@ -79,7 +79,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cekirge.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '04:24',
       status: 'Preview',
     },
     {
@@ -88,7 +88,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/cityok.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '04:09',
       status: 'Preview',
     },
     {
@@ -97,7 +97,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/domingo%20son.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:35',
       status: 'Preview',
     },
     {
@@ -106,7 +106,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/eski%20yar%20senelgan.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '04:09',
       status: 'Preview',
     },
     {
@@ -115,7 +115,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/ey%20guzel.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:09',
       status: 'Preview',
     },
     {
@@ -124,7 +124,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/faruk%20son%20master.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:48',
       status: 'Preview',
     },
     {
@@ -133,7 +133,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/gift%20of%20time%2024.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:46',
       status: 'Preview',
     },
     {
@@ -142,7 +142,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/haddimizi%20bileleim.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '05:14',
       status: 'Preview',
     },
     {
@@ -151,7 +151,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/hayrola%20master.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:50',
       status: 'Preview',
     },
     {
@@ -160,7 +160,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/icer%20aglarim.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:54',
       status: 'Preview',
     },
     {
@@ -169,7 +169,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/Kebo%20-%20KAFKAS.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:27',
       status: 'Preview',
     },
     {
@@ -178,7 +178,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/kebo%20isyan.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:12',
       status: 'Preview',
     },
     {
@@ -187,7 +187,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/koptum%20bu%20gece.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:28',
       status: 'Preview',
     },
     {
@@ -196,7 +196,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/kurtce%20emre.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:05',
       status: 'Preview',
     },
     {
@@ -205,7 +205,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/osmaniye%20son%20son.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '05:02',
       status: 'Preview',
     },
     {
@@ -214,7 +214,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/senel-delimisin.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '04:38',
       status: 'Preview',
     },
     {
@@ -223,7 +223,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/senel-yazgan-ingilizce.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:47',
       status: 'Preview',
     },
     {
@@ -232,7 +232,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/serap-demo.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '02:36',
       status: 'Preview',
     },
     {
@@ -241,7 +241,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/sonses.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '05:36',
       status: 'Preview',
     },
     {
@@ -250,7 +250,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tamirci-ciragi.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '04:46',
       status: 'Preview',
     },
     {
@@ -259,7 +259,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tuncay-didismeyelim.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '04:46',
       status: 'Preview',
     },
     {
@@ -268,7 +268,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tuncay-oz-mutlu-olacaksam.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '05:26',
       status: 'Preview',
     },
     {
@@ -277,7 +277,7 @@ export default function HomepageClient() {
       artist: 'Live Room - Eren D.',
       src: 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/audios/tuncay-teksen-kemanli.mp3',
       type: 'Acoustic / Mix',
-      duration: '03:41',
+      duration: '03:39',
       status: 'Preview',
     },
   ];
@@ -393,7 +393,7 @@ export default function HomepageClient() {
 
   return (
     <div>
-      <main className="pb-8 min-h-screen md:min-h-[calc(100vh-70px)] relative">
+      <main className="pt-6 pb-8 min-h-screen md:min-h-[calc(100vh-70px)] relative">
         <Image
           src="https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/social-4.jpg"
           className="absolute inset-0 -z-20 object-cover object-center"
@@ -405,7 +405,7 @@ export default function HomepageClient() {
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_right,rgba(20,184,166,0.25),transparent_38%)]" />
         <div className="max-w-7xl mx-auto px-6 pt-24 md:pt-28 text-white">
           <div className="max-w-4xl flex flex-col gap-8">
-            <h1 className="text-start hero-reveal text-5xl md:text-7xl font-semibold leading-[0.95] [animation-delay:80ms]">
+            <h1 className=" text-start hero-reveal text-5xl md:text-7xl font-semibold leading-[1.1] [animation-delay:80ms]">
               Sunay Müzik Ses Kayıt Albüm Demo
             </h1>
             <p className="hero-reveal text-lg md:text-xl text-white/90 max-w-2xl [animation-delay:180ms]">
@@ -456,7 +456,7 @@ export default function HomepageClient() {
       <Services />
 
       <section id="portfolio" className="bg-zinc-950 text-white">
-        <div className="max-w-7xl mx-auto px-6 py-20">
+        <div className="max-w-7xl mx-auto px-6 pt-10 md:pt-20">
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.14em] text-white/55">
@@ -533,8 +533,8 @@ export default function HomepageClient() {
       </section>
 
       <section id="brands" className="bg-zinc-950 text-white">
-        <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="mb-8">
+        <div className="max-w-7xl mx-auto px-6 pt-10 md:pt-20">
+          <div className="mb-4 md:mb-8">
             <p className="text-sm uppercase tracking-[0.14em] text-white/55">
               Referanslar
             </p>
@@ -584,8 +584,8 @@ export default function HomepageClient() {
       <ContactForm />
 
       <section id="equipment" className="bg-zinc-950 text-white">
-        <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+        <div className="max-w-7xl mx-auto px-6 pt-10 md:pt-20">
+          <div className="mb-4 md:mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
               <p className="text-sm uppercase tracking-[0.14em] text-white/55">
                 Stüdyo Ekipmanlari
@@ -648,22 +648,23 @@ export default function HomepageClient() {
           }`}
         >
           <div className="flex flex-col gap-3 md:flex-row md:items-center md:gap-4">
-            <button
-              type="button"
-              onClick={toggleGlobalPlayback}
-              className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-sm transition-colors hover:bg-teal-400/25"
-              aria-label="Oynat veya duraklat"
-            >
-              {isPlaying ? '❚❚' : '▶'}
-            </button>
-
-            <div className="min-w-0 md:w-64">
-              <p className="truncate text-sm font-semibold">
-                {currentTrack.title}
-              </p>
-              <p className="truncate text-xs text-white/60">
-                {currentTrack.artist}
-              </p>
+            <div className="flex gap-3  items-center">
+              <button
+                type="button"
+                onClick={toggleGlobalPlayback}
+                className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/20 bg-white/10 text-sm transition-colors hover:bg-teal-400/25"
+                aria-label="Oynat veya duraklat"
+              >
+                {isPlaying ? <FaPause /> : <FaPlay />}
+              </button>
+              <div className="min-w-0 md:w-64">
+                <p className="truncate text-sm font-semibold">
+                  {currentTrack.title}
+                </p>
+                <p className="truncate text-xs text-white/60">
+                  {currentTrack.artist}
+                </p>
+              </div>
             </div>
 
             <div className="flex-1">

@@ -4,8 +4,8 @@ import Link from 'next/link';
 export default function Services() {
   return (
     <section id="services" className="bg-zinc-950 text-white">
-      <div className="max-w-7xl mx-auto px-6 py-20">
-        <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+      <div className="max-w-7xl mx-auto px-6 pt-10 md:pt-20">
+        <div className="mb-4 md:mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-sm uppercase tracking-[0.14em] text-white/55">
               Servislerimiz
@@ -33,14 +33,14 @@ export default function Services() {
               title: 'Mixing',
               image:
                 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunay-mixing.jpg',
-              desc: 'Parcanin dengesini ve enerjisini koruyan temiz mix.',
+              desc: 'Parçanın dengesini ve enerjisini koruyan temiz mix.',
               url: '/mixing',
             },
             {
               title: 'Mastering',
               image:
                 'https://xjlakfmpndqhejusdjij.supabase.co/storage/v1/object/public/images/sunay-mastering.jpg',
-              desc: 'Tum platformlarda guclu ve tutarli son cikis.',
+              desc: 'Tüm platformlarda güçlü ve tutarlı son çıkış.',
               url: '/mastering',
             },
           ].map((service) => (

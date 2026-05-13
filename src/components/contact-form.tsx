@@ -4,9 +4,9 @@ import Map from './map';
 export default function ContactForm() {
   return (
     <section id="iletisim" className="bg-zinc-950 text-white">
-      <div className="max-w-7xl mx-auto px-6 py-20">
+      <div className="max-w-7xl mx-auto px-6 pt-10 md:pt-20">
         <Breadcrumb />
-        <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+        <div className="mb-4 md:mb-8 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-sm uppercase tracking-[0.14em] text-white/55">
               iletişim
@@ -83,7 +83,7 @@ export default function ContactForm() {
 
           <aside className="rounded-2xl border border-white/10 bg-white/4 p-5 backdrop-blur-sm md:p-6">
             <p className="text-sm uppercase tracking-[0.12em] text-white/55">
-              Hemen Ulas
+              Hemen Ulaş
             </p>
             <h3 className="mt-2 text-2xl font-semibold">WhatsApp Destek</h3>
             <p className="mt-3 text-sm leading-relaxed text-white/70">
